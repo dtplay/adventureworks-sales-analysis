@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdventureWorks Sales Dashboard Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0 20px;
+        background-color: #f8f9fa;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+          sans-serif;
+        color: #24292f;
+      }
+      .header-container {
+        max-width: 1200px;
+        margin: 40px auto 20px auto;
+        border-bottom: 1px solid #d0d7de;
+        padding-bottom: 16px;
+      }
+      h1 {
+        margin-bottom: 8px;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .badges {
+        margin-bottom: 16px;
+      }
+      .badge {
+        background-color: #ddf4ff;
+        color: #0969da;
+        padding: 4px 12px;
+        border-radius: 2rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-right: 6px;
+        display: inline-block;
+      }
+      .summary-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        color: #57606a;
+        max-width: 900px;
+        margin: 0 0 16px 0;
+      }
+      .back-link {
+        color: #0969da;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .back-link:hover {
+        text-decoration: underline;
+      }
+      .report-container {
+        max-width: 1200px;
+        margin: 0 auto 60px auto;
+      }
+      .report-wrapper {
+        width: 100%;
+        aspect-ratio: 16 / 9; /* Strictly locks the HTML element to match the Power BI Canvas */
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        background-color: #fff;
+      }
+      .report-wrapper iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>AdventureWorks Sales Dashboard</h1>
+      <div class="badges">
+        <span class="badge">PostgreSQL</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Power BI</span>
+      </div>
+      <p class="summary-text">
+        An interactive 4-page Power BI dashboard analyzing $109.85M in sales
+        across 31K orders (2011–2014), powered by a custom SQL star schema.
+      </p>
+      <a
+        class="back-link"
+        href="https://github.com/dtplay/adventureworks-sales-analysis"
+        >← View Project Source Code on GitHub</a
+      >
+    </div>
+
+    <div class="report-container">
+      <div class="report-wrapper">
+        <iframe
+          title="adventureworks"
+          src="https://app.powerbi.com/view?r=eyJrIjoiMWVkM2QwYzctOGJmYS00MjMwLWI5NGYtMDhmZGQ0MTQ5OGIyIiwidCI6IjJhMWNlMjBmLTNkZTUtNDdhZC1iYjMxLTVhZTQ0ZTRiMzQwMCIsImMiOjEwfQ%3D%3D&pageName=13a9e61e209c90406015&pageView=fitToPage"
+          allowfullscreen="true"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
