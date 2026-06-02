@@ -4,6 +4,8 @@ Transforms AdventureWorks sales data (PostgreSQL port) into a star schema and de
 
 **Tools:** PostgreSQL • SQL • Power BI
 
+>✨ **Live Interactive Report:** [Interact with the Power BI dashboard here](https://dtplay.github.io/adventureworks-sales-analysis/) 🔗 (Right-click to open in a new tab)
+
 ## Business Questions Answered
 
 - Which product **categories and subcategories** generate the most revenue?
@@ -28,7 +30,7 @@ SQL `CREATE VIEW` statements extract and denormalise OLTP tables from PostgreSQL
   - `adventureworks.pbix` – star schema model + DAX measures
   - `adventureworks.pdf` – 4-page dashboard export
 
-If you mainly care about the results, start with **`powerbi/adventureworks.pdf`** for a quick overview of the dashboard.
+If you mainly care about the results, open the **[Live Interactive Dashboard](https://dtplay.github.io/adventureworks-sales-analysis/)** 🔗 (Right-click to open in a new tab), or view `powerbi/adventureworks.pdf` for a static overview.
 
 **Database setup not included.** Uses AdventureWorks PostgreSQL port by [NorfolkDataSci](https://github.com/NorfolkDataSci/adventure-works-postgres). Follow their instructions first.
 
