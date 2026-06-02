@@ -2,7 +2,7 @@
 
 Transforms AdventureWorks sales data (PostgreSQL port) into a star schema and delivers a 4-page Power BI dashboard covering $109.85M in sales across 31K orders from 2011–2014.
 
-**Tools:** PostgreSQL • SQL • Power BI
+**Tools:** PostgreSQL • Power BI
 
 >✨ **Live Interactive Report:** [Interact with the Power BI dashboard here](https://dtplay.github.io/adventureworks-sales-analysis/) 🔗 (Right-click to open in a new tab)
 
